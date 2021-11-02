@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="todo-app-wrap">
+        <div class="todo-app-title"><h1>TODOアプリ</h1></div>
+        <div id="todo-app-inner-wrap">
+            <input id="inputtext" type="text">
+            <button id="addbtn">add</button>
+            <div id="todo-list" class="todolist">
+                <h2>TODO</h2>
+                <ul id="todo-inner">
+                    <li id="todo-li" class="todoli">
+                        <p>todo</p>
+                        <button>完了</button>
+                        <button>削除</button>
+                    </li>
+                </ul>
+            </div>
+            <div id="done-list" class="donelist">
+                <h2>DONE</h2>
+                <ul id="done-inner">
+                    <li id="done-li" class="doneli">
+                        <p>done</p>
+                        <button>完了した</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
